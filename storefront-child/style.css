@@ -1,0 +1,97 @@
+/*
+Theme Name: Plant Shop Child Theme
+Template: storefront
+Author: Regitze Adrian
+Version: 4.1.3.1665132082
+Updated: 2022-10-07 08:41:22
+
+*/
+
+.shippingInfo {
+    color: rgb(25, 70, 45);
+    background-color: rgb(185, 228, 204);
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 20px 0;
+}
+
+.button, .wp-block-search__button, .checkout-button.button.alt.wc-forward, #place_order.button.alt, .woocommerce-noreviews, #submit {
+    color: #eeede5;
+    background-color: rgb(37, 106, 68);
+    border-radius: 7px;
+    box-shadow: 0px 6px 10px rgb(152, 174, 162);
+}
+
+.button:hover, .wp-block-search__button:hover, .checkout-button.button.alt.wc-forward:hover, #place_order.button.alt:hover, #submit:hover {
+    color: #226337;
+    background-color: rgb(75, 245, 126, 0.3);
+    border-radius: 7px;
+    box-shadow: 0px 6px 10px rgb(209, 209, 209);
+}
+
+.wp-block-search__input {
+    border-radius: 7px;
+}
+
+.storefront-primary-navigation {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(rgb(59, 148, 99), rgb(37, 106, 68));
+}
+
+img {
+    border-radius: 7px;
+}
+
+.entry-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.woocommerce-info {
+    background-color:rgb(25, 70, 45)
+}
+
+.frontpage_text {
+    width: 60%;
+    margin: 30px;
+}
+
+.search-field, .woocommerce-product-search {
+    display:none !important;
+}
+
+.col-full {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-toggle {
+    border: none !important;
+    background-color: rgba(0, 128, 0, 0) !important;
+}
+
+.site-footer {
+    background-color: rgb(185, 228, 204);
+}
+
+
+@media only screen and (max-width: 600px) {
+    .frontpage_text {
+      width: 80%;
+    }
+    .site-header {
+        margin:0px;
+        padding:0px;
+        gap: 0px;
+    }
+
+    .shippingInfo {
+        margin: 0px;
+    }
+  }
